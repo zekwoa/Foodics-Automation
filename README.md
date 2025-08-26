@@ -27,12 +27,9 @@ The runner starts from a **saved session JSON** (cookies + local/session storage
 
 ## Project Layout (suggested)
 
-├─ foodics_bootstrap_sb.py        
-# one-time login; saves session JSON
-├─ foodics_run_from_state_sb.py   
-# main runner; loads session & uploads CSVs
-├─ foodics_storage.json           
-# saved session (DO NOT COMMIT)
+├─ foodics_bootstrap_sb.py        # one-time login; saves session JSON
+├─ foodics_run_from_state_sb.py   # main runner; loads session & uploads CSVs
+├─ foodics_storage.json           # saved session (DO NOT COMMIT)
 └─ csvs/
    ├─ Quantity Adjustment (Expired).csv
    └─ Quantity Adjustment (Waste Production).csv
